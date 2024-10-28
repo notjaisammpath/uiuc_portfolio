@@ -1,22 +1,26 @@
 import React from 'react';
+import { FaMusic, FaCode, FaRobot, FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa'; // Importing specific icons
 
 function HeroSection() {
 	return (
-		<div id="hero" className="flex items-center justify-center flex-col py-20">
+		<div id="hero" className="flex items-center justify-center flex-col py-10">
 			<div className="text-center">
-				<h1 className="text-2xl md:text-4xl mb-1 md:mb-3 text-indigo-600 dark:text-indigo-500 font-semibold">
-					Hi, This is Arfan
+				<h1 className="text-2xl md:text-4xl mb-1 md:mb-3 text-blue-600 dark:text-blue-500 font-semibold">
+					Hi, I'm Jai!
 				</h1>
-				<p className="text-md md:text-xl max-w-md mb-3 text-gray-600 dark:text-gray-300">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi rerum
-					quia harum eaque, quae laboriosam quisquam distinctio{' '}
+				<p className="text-md md:text-xl max-w-lg mb-3 text-gray-600 dark:text-gray-300">
+					I'm a driven high school senior interested in exploring the 
+					intersection between computer science and music.
 				</p>
-				<a
-					href="#works"
-					className="inline-block px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:text-md "
-				>
-					See Works
-				</a>
+				<div className="flex space-x-4 justify-center mt-4">
+				<a href="https://www.linkedin.com/in/jaisammpath/" target="_blank" rel="noopener noreferrer">
+					<FaLinkedin className="text-2xl text-blue-600 dark:text-blue-500" />
+					</a>
+					<a href="https://github.com/notjaisammpath">
+					<FaGithub className="text-2xl text-blue-600 dark:text-blue-500" />
+					</a>
+					<FaInstagram className="text-2xl text-blue-600 dark:text-blue-500" />
+				</div>
 			</div>
 		</div>
 	);
