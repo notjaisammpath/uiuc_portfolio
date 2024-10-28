@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
 import About from './components/About';
 import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
 import Services from './components/Services';
 import Works from './components/Works';
+import ComputerScience from './pages/computer-science';
+import ReachingOutPage from './pages/reaching-out';
+import MusicPage from './pages/music';
 
 function App() {
 	const [theme, setTheme] = useState(null);
@@ -29,24 +34,37 @@ function App() {
 	}, [theme]);
 
 	return (
-		<>
-			<button
-				type="button"
-				onClick={handleThemeSwitch}
-				className="fixed z-10 right-2 top-2 bg-blue-500 text-lg p-1 rounded-md"
-			>
-				{theme === 'dark' ? '🌙' : '☀️'}
-			</button>
-			<div className="bg-white dark:bg-slate-900 min-h-screen font-inter ">
-				<div className="max-w-5xl w-11/12 mx-auto">
-					<HeroSection />
-					<Services />
-					<Works />
-					<About />
-					<Footer />
+		<Router>
+			<div className="bg-slate-100 dark:bg-slate-900 min-h-screen font-inter"> {/* Apply slate background here */}
+				<button
+					type="button"
+					onClick={handleThemeSwitch}
+					className="fixed z-10 right-2 top-2 bg-blue-500 text-lg p-1 rounded-md"
+				>
+					{theme === 'dark' ? '🌙' : '☀️'}
+				</button>
+				<div className="max-w-5xl w-11/12 mx-auto pt-6"> {/* Adjusted for layout */}
+					<Routes>
+						<Route
+							path="/"
+							element={
+								<>
+									<Navbar />
+
+									<HeroSection />
+									<About />
+									<Services />
+									<Footer />
+								</>
+							}
+						/>
+						<Route path="/computer-science" element={<ComputerScience />} />
+						<Route path="/music" element={<MusicPage />} />
+						<Route path="/reaching-out" element={<ReachingOutPage />} />
+					</Routes>
 				</div>
 			</div>
-		</>
+		</Router>
 	);
 }
 

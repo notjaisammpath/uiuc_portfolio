@@ -13,12 +13,6 @@ function About() {
 					debitis, natus cum ad, fugiat excepturi minima culpa atque modi
 					accusantium vel voluptatem?
 				</p>
-				<a
-					href="mailto:webcifar.com"
-					className="block mt-3 text-md md:text-lg text-gray-700 dark:text-gray-300 underline decoration-1 hover:text-blue-500 dark:hover:text-blue-500"
-				>
-					https://www.linkedin.com/in/jaisammpath/
-				</a>
 			</div>
 
 			<img

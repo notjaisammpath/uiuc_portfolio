@@ -14,6 +14,7 @@ function Services() {
 						title={service.title}
 						icon={service.icon}
 						description={service.description}
+						link={service.link}
 					/>
 				))}
 			</div>
