@@ -14,10 +14,10 @@ function HeroSection() {
 				</p>
 				<div className="flex space-x-12 justify-center mt-4">
 				<a href="https://www.linkedin.com/in/jaisammpath/" target="_blank" rel="noopener noreferrer">
-					<FaLinkedin className="text-2xl text-blue-600 dark:text-blue-500" />
+					<FaLinkedin className="text-4xl text-blue-600 dark:text-blue-500" />
 					</a>
 					<a href="https://github.com/notjaisammpath">
-					<FaGithub className="text-2xl text-blue-600 dark:text-blue-500" />
+					<FaGithub className="text-4xl text-blue-600 dark:text-blue-500" />
 					</a>
 				</div>
 			</div>

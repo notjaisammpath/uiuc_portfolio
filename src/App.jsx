@@ -43,7 +43,7 @@ function App() {
 				>
 					{theme === 'dark' ? '🌙' : '☀️'}
 				</button>
-				<div className="max-w-5xl w-11/12 mx-auto pt-6"> {/* Adjusted for layout */}
+				<div className="w-10/12 mx-auto pt-6"> {/* Adjusted for layout */}
 					<Routes>
 						<Route
 							path="/"
