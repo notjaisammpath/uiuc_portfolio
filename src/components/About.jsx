@@ -1,5 +1,5 @@
 import React from 'react';
-import myImg from '../images/hero.jpg';
+import myImg from '../media/hero.jpg';
 import SectionTitle from './SectionTitle';
 
 function About() {

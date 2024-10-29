@@ -22,8 +22,8 @@ function Sidebar({ items, homeLink, name }) {
                         {item.icon}
                         <ScrollLink
                             to={item.to}
-                            smooth={true}
-                            duration={500}
+                            smooth={false}
+                            duration={100}
                             className="text-blue-500 dark:text-blue-300 hover:text-blue-700 dark:hover:text-blue-500 font-semibold"
                         >
                             {item.name}

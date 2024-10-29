@@ -5,10 +5,9 @@ import About from './components/About';
 import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
 import Services from './components/Services';
-import Works from './components/Works';
-import ComputerScience from './pages/computer-science';
 import ReachingOutPage from './pages/reaching-out';
 import MusicPage from './pages/music';
+import ComputerSciencePage from './pages/computer-science';
 
 function App() {
 	const [theme, setTheme] = useState(null);
@@ -50,7 +49,6 @@ function App() {
 							element={
 								<>
 									<Navbar />
-
 									<HeroSection />
 									<About />
 									<Services />
@@ -58,7 +56,7 @@ function App() {
 								</>
 							}
 						/>
-						<Route path="/computer-science" element={<ComputerScience />} />
+<Route path="/computer-science" element={<ComputerSciencePage />} />
 						<Route path="/music" element={<MusicPage />} />
 						<Route path="/reaching-out" element={<ReachingOutPage />} />
 					</Routes>
