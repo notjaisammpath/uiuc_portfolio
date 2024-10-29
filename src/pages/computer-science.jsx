@@ -3,7 +3,8 @@ import React from 'react';
 import { Element } from 'react-scroll';
 import Sidebar from '../components/Sidebar';
 import { FaArrowLeft, FaSeedling, FaCalendarCheck, FaRobot } from 'react-icons/fa';
-import cochiseCartiAudio from '../media/cochise-carti.mp3';
+import SchedulocityImage from '../media/firstperf.png';
+import SpeechpunditImage from '../media/firstperf.png';
 
 function ComputerSciencePage() {
 	const sidebarItems = [
@@ -77,7 +78,7 @@ function ComputerSciencePage() {
 					<div className="flex flex-row">
 						<div className="md:h-1/2 w-full md:w-1/2 p-12 pb-12">
 							<img
-								src="src/media/firstperf.png"
+								src={SchedulocityImage}
 							></img>
 						</div>
 						<div className="md:w-1/2 p-4 pb-12">
