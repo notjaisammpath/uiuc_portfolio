@@ -8,6 +8,7 @@ import Services from './components/Services';
 import ReachingOutPage from './pages/reaching-out';
 import MusicPage from './pages/music';
 import ComputerSciencePage from './pages/computer-science';
+import ResumePage from './pages/resume';
 
 function App() {
 	const [theme, setTheme] = useState(null);
@@ -59,6 +60,10 @@ function App() {
 <Route path="/computer-science" element={<ComputerSciencePage />} />
 						<Route path="/music" element={<MusicPage />} />
 						<Route path="/reaching-out" element={<ReachingOutPage />} />
+						<Route path="/resume" element={<>
+									<Navbar />
+									<ResumePage />
+								</>} />
 					</Routes>
 				</div>
 			</div>

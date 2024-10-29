@@ -25,6 +25,13 @@ function Navbar() {
  				   <li>
  					   <Link to="/reaching-out" className="hover:underline text-blue-400">Teaching/Outreach</Link>
  				   </li>
+					<li>
+ 					   <p className='text-blue-600'> | </p>
+ 				   </li>
+				
+ 				   <li>
+ 					   <Link to="/resume" className="hover:underline text-blue-400">Resume</Link>
+ 				   </li>
  			   </ul>
  		   </div>
  	   </nav>
