@@ -61,6 +61,8 @@ function App() {
 						<Route path="/music" element={<MusicPage />} />
 						<Route path="/reaching-out" element={<ReachingOutPage />} />
 						<Route path="/resume" element={<>
+							<Navbar />
+
 							<ResumePage />
 						</>} />
 					</Routes>
