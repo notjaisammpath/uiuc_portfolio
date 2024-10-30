@@ -4,7 +4,7 @@ import { Element } from 'react-scroll';
 import Sidebar from '../components/Sidebar';
 import { FaArrowLeft, FaSeedling, FaCalendarCheck, FaRobot } from 'react-icons/fa';
 import SchedulocityImage from '../media/firstperf.png';
-import SpeechpunditImage from '../media/firstperf.png';
+import SpeechpunditImage from '../media/sp.png';
 
 function ComputerSciencePage() {
 	const sidebarItems = [
@@ -39,8 +39,8 @@ function ComputerSciencePage() {
 			<div className="w-3/4 p-8">
 
 
-				<h1 className="text-4xl font-bold text-blue-600 dark:text-blue-500">App Development</h1>
 				<Element name="ourgarden" className="mt-8">
+				<h1 className="text-4xl font-bold text-blue-600 dark:text-blue-500">App Development</h1>
 
 					<div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-6 shadow-md my-8">
 						<div className="flex flex-col md:flex-row">
@@ -104,7 +104,7 @@ function ComputerSciencePage() {
 						</div>
 						<div className="md:h-1/2 w-full md:w-1/2 p-12 pb-12">
 							<img
-								src="src/media/firstperf.png"
+								src={SpeechpunditImage}
 							></img>
 						</div>
 
@@ -125,8 +125,10 @@ function ComputerSciencePage() {
 						</div>
 						<div className="md:w-1/2 p-4 ">
 							<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">Competition</h2>
-							<p className=" text-gray-600 dark:text-gray-300">Years of practice and dedication culminated in my graduation performance (arangetram) in Carrollton, Texas. The anticipation in the air was palpable as I took the stage, ready to showcase the skills I had developed through countless hours of training. For nearly three uninterrupted hours, I performed in front of an audience of hundreds, supported by a talented violinist and mridangam artist. As I sang, I felt a wave of emotions wash over me, reflecting on the journey that had led me to this moment. Each note was a testament to my hard work and the support of my teachers and family. The vibrant melodies filled the auditorium, and I could sense the connection I had with the audience, who shared in the experience. After singing for what felt like an eternity, I was overwhelmed with gratitude and pride. This performance was not just a culmination of my training; it was a celebration of my commitment to Carnatic music and a stepping stone into my future in the art. Singing began at 12:48, and I will always cherish that moment as a highlight of my musical journey.
+							<p className=" text-gray-600 dark:text-gray-300">I loved competing with my FTC team, Iron Reign; it's been an incredible journey that's inspired me to pursue robotics and engineering. We worked hard to reach the World Championship in my sophomore year and the State Championship in my junior year, where we celebrated some amazing wins, like the Motivate 2 award at Worlds and the Innovate 1 award at State. To help our team thrive, I organized annual recruitment events that built a strong community of aspiring engineers. I also had the chance to represent our code team in sessions with notable organizations like Stanford Robotics, Eli and Lilly, and Dallas College. Even in the heat of competition, I made lifelong friends and I now have a robotics family that I can always count on.
+
 							</p>
+							<p className=" text-gray-600 dark:text-gray-300">	Individually, I had the honor of being nominated as a Dean’s List semifinalist by my mentor. After a strong letter of recommendation and a successful interview with the FIRST Robotics Dean’s List Panel, I was proud to be recognized as one of the top four FTC students in the North Texas region, contributing to our team’s legacy of Dean’s List Finalists. </p>
 						</div>
 					</div>
 
