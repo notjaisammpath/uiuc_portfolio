@@ -126,7 +126,7 @@ function MusicPage() {
 						<div className="flex flex-row">
 							<div className="md:h-1/2 w-full md:w-1/2 p-12 flex items-center justify-center">
 								<audio controls className="w-400 h-100 rounded-md shadow-lg pt-14">
-								<source src="/media/cochise-carti.mp3" type="audio/mp3" />
+								<source src="/src/media/cochise-carti.mp3" type="audio/mp3" />
 									Your browser does not support the audio element.
 								</audio>
 							</div>
@@ -150,7 +150,7 @@ function MusicPage() {
 
 						<div className="md:h-1/2 w-full md:w-1/2 p-12 flex items-center justify-center">
 							<audio controls className="w-400 h-100 rounded-md shadow-lg pt-14">
-							<source src="/media/latin.mp3" type="audio/mp3" />
+							<source src="/src/media/latin.mp3" type="audio/mp3" />
 								Your browser does not support the audio element.
 							</audio>
 						</div>
