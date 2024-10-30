@@ -57,13 +57,12 @@ function App() {
 								</>
 							}
 						/>
-<Route path="/computer-science" element={<ComputerSciencePage />} />
+						<Route path="/computer-science" element={<ComputerSciencePage />} />
 						<Route path="/music" element={<MusicPage />} />
 						<Route path="/reaching-out" element={<ReachingOutPage />} />
 						<Route path="/resume" element={<>
-									<Navbar />
-									<ResumePage />
-								</>} />
+							<ResumePage />
+						</>} />
 					</Routes>
 				</div>
 			</div>

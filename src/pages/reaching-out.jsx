@@ -31,23 +31,20 @@ function ReachingOutPage() {
 			<Sidebar items={sidebarItems} homeLink={homeLink} name="Music" />
 
 			{/* Main Content Area */}
-			<div className="w-3/4 p-8">
+			<div className="w-5/6 p-8">
 
 
 				<Element name="let the beat build" className="mt-8">
-					<h1 className="text-4xl font-bold text-blue-600 dark:text-blue-500">App Development</h1>
 
 					<div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-6 shadow-md my-8">
 						<div className="flex flex-col md:flex-row">
-							{/* App Description Section */}
 							<div className="md:w-1/2 p-4">
-								<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">OurGarden</h2>
+								<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">Let The Beat Build</h2>
 								<p className="text-gray-600 dark:text-gray-300">
 									Inspired by the frenzied rush that would happen in my community whenever someone announced that they were putting seedlings out on their porch, I developed an app to streamline community plant sharing and trade. It’s a really simple, lightweight solution to a very personal problem. We ended up finding an opportunity to give what we’d done a platform in the <a href="https://www.congressionalappchallenge.us/23-tx30/"> Congressional App Challenge</a>. We created this pitch video for our platform once we had a minimum viable product. We actually ended up winning in our Congressional District (South Dallas). We got opportunities to present in DC, network with our congresswoman and other congresspeople, and meet hundreds of other likeminded young developers.
 								</p>
 							</div>
 
-							{/* Video and App Store Link Section */}
 							<div className="md:w-1/2 p-4 mt-6 md:mt-0">
 								<iframe
 									className="w-full aspect-video rounded-md shadow-lg"
@@ -77,7 +74,7 @@ function ReachingOutPage() {
 							></img>
 						</div>
 						<div className="md:w-1/2 p-4 pb-12">
-							<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">Schedulocity</h2>
+							<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">CodeNinjas</h2>
 							<p className=" text-gray-600 dark:text-gray-300">Years of practice and dedication culminated in my graduation performance (arangetram) in Carrollton, Texas. The anticipation in the air was palpable as I took the stage, ready to showcase the skills I had developed through countless hours of training. For nearly three uninterrupted hours, I performed in front of an audience of hundreds, supported by a talented violinist and mridangam artist. As I sang, I felt a wave of emotions wash over me, reflecting on the journey that had led me to this moment. Each note was a testament to my hard work and the support of my teachers and family. The vibrant melodies filled the auditorium, and I could sense the connection I had with the audience, who shared in the experience. After singing for what felt like an eternity, I was overwhelmed with gratitude and pride. This performance was not just a culmination of my training; it was a celebration of my commitment to Carnatic music and a stepping stone into my future in the art. Singing began at 12:48, and I will always cherish that moment as a highlight of my musical journey.
 
 							</p>
