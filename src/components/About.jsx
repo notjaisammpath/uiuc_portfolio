@@ -8,13 +8,13 @@ function About() {
 			<div className="w-full md:w-6/12">
 				<SectionTitle>About Me</SectionTitle>
 				<p className="text-md text-gray-600 dark:text-gray-300">
-				I’m a student at the School for The Talented and Gifted in Dallas, Texas. I’m all about computers, robots, music, philosophy, and spending time outdoors. If manage to catch me without my headphones in, consider yourself lucky.
+				I’m a student at the School for The Talented and Gifted in Dallas, Texas. I’m all about computers, robots, music, philosophy, and spending time outdoors. If you manage to catch me without my headphones in, consider yourself lucky.
 				</p>
 			</div>
 
 			<img
 				src={myImg}
-				alt="Arfan"
+				alt="Jai"
 				className="w-full md:w-6/12 rounded-lg object-cover"
 			/>
 		</div>

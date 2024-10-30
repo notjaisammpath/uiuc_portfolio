@@ -3,7 +3,7 @@ import React from 'react';
 import { Element } from 'react-scroll';
 import Sidebar from '../components/Sidebar';
 import { FaArrowLeft, FaSeedling, FaCalendarCheck, FaRobot, FaMicrophone } from 'react-icons/fa';
-import SchedulocityImage from '../media/firstperf.png';
+import SchedulocityImage from '../media/schedulocity.png';
 import SpeechpunditImage from '../media/sp.png';
 
 function ComputerSciencePage() {
@@ -45,19 +45,17 @@ function ComputerSciencePage() {
 
 
 				<Element name="ourgarden" className="mt-8">
-				<h1 className="text-4xl font-bold text-blue-600 dark:text-blue-500">App Development</h1>
+					<h1 className="text-4xl font-bold text-blue-600 dark:text-blue-500">App Development</h1>
 
 					<div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-6 shadow-md my-8">
 						<div className="flex flex-col md:flex-row">
-							{/* App Description Section */}
 							<div className="md:w-1/2 p-4">
 								<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">OurGarden</h2>
 								<p className="text-gray-600 dark:text-gray-300">
-									Inspired by the frenzied rush that would happen in my community whenever someone announced that they were putting seedlings out on their porch, I developed an app to streamline community plant sharing and trade. It’s a really simple, lightweight solution to a very personal problem. We ended up finding an opportunity to give what we’d done a platform in the <a href="https://www.congressionalappchallenge.us/23-tx30/"> Congressional App Challenge</a>. We created this pitch video for our platform once we had a minimum viable product. We actually ended up winning in our Congressional District (South Dallas). We got opportunities to present in DC, network with our congresswoman and other congresspeople, and meet hundreds of other likeminded young developers.
+									My family is huge on gardening – half my plate is usually fresh from our backyard. Naturally, when my parents found families in the neighborhood with an interest in gardening, we reached out and began trading with them to diversify the organic food we were eating and growing. However, the labyrinthine list of group chats and the constant flurry of activity on WhatsApp made a community trade network impossible. I found a solution in app development: if the platform was the issue, I’d create my own. Since then, I’ve been building OurGarden, a community gardening app that was <a target="_blank" rel="noopener noreferrer" href="https://www.congressionalappchallenge.us/23-tx30/" className='underline'> awarded first place in the Congressional App Challenge</a>. We got to present the app in DC, sharing our ideas with Congress and hundreds of other likeminded young innovators.
 								</p>
 							</div>
 
-							{/* Video and App Store Link Section */}
 							<div className="md:w-1/2 p-4 mt-6 md:mt-0">
 								<iframe
 									className="w-full aspect-video rounded-md shadow-lg"
@@ -88,7 +86,7 @@ function ComputerSciencePage() {
 						</div>
 						<div className="md:w-1/2 p-4 pb-12">
 							<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">Schedulocity</h2>
-							<p className=" text-gray-600 dark:text-gray-300">Years of practice and dedication culminated in my graduation performance (arangetram) in Carrollton, Texas. The anticipation in the air was palpable as I took the stage, ready to showcase the skills I had developed through countless hours of training. For nearly three uninterrupted hours, I performed in front of an audience of hundreds, supported by a talented violinist and mridangam artist. As I sang, I felt a wave of emotions wash over me, reflecting on the journey that had led me to this moment. Each note was a testament to my hard work and the support of my teachers and family. The vibrant melodies filled the auditorium, and I could sense the connection I had with the audience, who shared in the experience. After singing for what felt like an eternity, I was overwhelmed with gratitude and pride. This performance was not just a culmination of my training; it was a celebration of my commitment to Carnatic music and a stepping stone into my future in the art. Singing began at 12:48, and I will always cherish that moment as a highlight of my musical journey.
+							<p className=" text-gray-600 dark:text-gray-300">At my high school, we take tons of standardized tests; the average student takes 3 PSATs, an SAT, and 15 AP exams before graduating. Our problem was that our testing and room assignment schedules were communicated by a sheet of paper put up in a central area. This created a host of issues, including overcrowding, stressed students and faculty, and just a waste of paper. To solve this we created <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1CG0Ew-6J3Qs9WYO6z4z1Yqrohn9rMKax?usp=drive_link" className='underline'>Schedulocity, which parsed the spreadsheets that the counselors were already using to send students their personalized testing schedules</a>. We pitched the idea to 20+ students, the principal, and both counselors, gaining approval before testing our solution with real student data. This is still the solution used at TAG today!
 
 							</p>
 						</div>
@@ -100,11 +98,10 @@ function ComputerSciencePage() {
 				<Element name="speechpundit" className="mt-8">
 
 					<div className="flex flex-row">
-						
+
 						<div className="md:w-1/2 p-4 pb-12">
 							<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">Speechpundit</h2>
-							<p className=" text-gray-600 dark:text-gray-300">Years of practice and dedication culminated in my graduation performance (arangetram) in Carrollton, Texas. The anticipation in the air was palpable as I took the stage, ready to showcase the skills I had developed through countless hours of training. For nearly three uninterrupted hours, I performed in front of an audience of hundreds, supported by a talented violinist and mridangam artist. As I sang, I felt a wave of emotions wash over me, reflecting on the journey that had led me to this moment. Each note was a testament to my hard work and the support of my teachers and family. The vibrant melodies filled the auditorium, and I could sense the connection I had with the audience, who shared in the experience. After singing for what felt like an eternity, I was overwhelmed with gratitude and pride. This performance was not just a culmination of my training; it was a celebration of my commitment to Carnatic music and a stepping stone into my future in the art. Singing began at 12:48, and I will always cherish that moment as a highlight of my musical journey.
-
+							<p className=" text-gray-600 dark:text-gray-300">During the summer after my junior year, I interned at SpeechPundit, a public speaking coaching company. I worked with them to extract metrics from recordings of voices to identify common public speaking issues. For example, I identified whether each sentence's volume trended upward or downward, and sent that information to the user to help them improve their speech. Additionally, as the company pivoted towards AI-driven speech analysis, I got certified in Machine Learning by AWS (a professional-level certification) to make better-informed decisions when tuning and deploying models. Finally, channelling my frustration while learning Python at the beginning of the summer, I containerized the development process of the audio processing stack with Docker, making new employees' setup as easy as following a quick start guide.
 							</p>
 						</div>
 						<div className="md:h-1/2 w-full md:w-1/2 p-12 pb-12">
@@ -122,7 +119,7 @@ function ComputerSciencePage() {
 				<h1 className="text-4xl font-bold text-blue-600 dark:text-blue-500">Robotics</h1>
 				<Element name="robotics" className="mt-8">
 					<div className="flex flex-row">
-						
+
 						<div className="md:h-1/2 w-full md:w-1/2 p-12 pb-12">
 							<img
 								src="src/media/state.png"
@@ -138,21 +135,21 @@ function ComputerSciencePage() {
 					</div>
 
 					<div className="flex flex-row">
-					<div className="md:w-1/2 p-4 pb-12">
+						<div className="md:w-1/2 p-4 pb-12">
 							<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">My Role: Software</h2>
 							<p className=" text-gray-600 dark:text-gray-300">Years of practice and dedication culminated in my graduation performance (arangetram) in Carrollton, Texas. The anticipation in the air was palpable as I took the stage, ready to showcase the skills I had developed through countless hours of training. For nearly three uninterrupted hours, I performed in front of an audience of hundreds, supported by a talented violinist and mridangam artist. As I sang, I felt a wave of emotions wash over me, reflecting on the journey that had led me to this moment. Each note was a testament to my hard work and the support of my teachers and family. The vibrant melodies filled the auditorium, and I could sense the connection I had with the audience, who shared in the experience. After singing for what felt like an eternity, I was overwhelmed with gratitude and pride. This performance was not just a culmination of my training; it was a celebration of my commitment to Carnatic music and a stepping stone into my future in the art. Singing began at 12:48, and I will always cherish that moment as a highlight of my musical journey.
 							</p>
 						</div>
 						<div className="md:h-1/2 w-full md:w-1/2 p-12 pb-12">
-						<div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-6 shadow-md my-8">
+							<div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-6 shadow-md my-8">
 
-							<img
-								src="src/media/dashboard.png"
-							></img>
+								<img
+									src="src/media/dashboard.png"
+								></img>
+							</div>
 						</div>
-						</div>
-						
-						
+
+
 					</div>
 
 				</Element>
