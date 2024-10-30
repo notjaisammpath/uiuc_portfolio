@@ -2,7 +2,7 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 import Sidebar from '../components/Sidebar';
-import { FaArrowLeft, FaSeedling, FaCalendarCheck, FaRobot } from 'react-icons/fa';
+import { FaArrowLeft, FaSeedling, FaCalendarCheck, FaRobot, FaMicrophone } from 'react-icons/fa';
 import SchedulocityImage from '../media/firstperf.png';
 import SpeechpunditImage from '../media/sp.png';
 
@@ -17,6 +17,11 @@ function ComputerSciencePage() {
 			to: "schedulocity",
 			name: "Schedulocity",
 			icon: <FaCalendarCheck className="text-blue-600 dark:text-blue-400" />,
+		},
+		{
+			to: "speechpundit",
+			name: "SpeechPundit",
+			icon: <FaMicrophone className="text-blue-600 dark:text-blue-400" />,
 		},
 		{
 			to: "robotics",
