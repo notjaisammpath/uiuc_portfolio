@@ -5,6 +5,7 @@ import Sidebar from '../components/Sidebar';
 import { FaArrowLeft, FaMicrophone, FaHeadphones } from 'react-icons/fa';
 import cochiseCartiAudio from '../media/cochise-carti.mp3';
 import latinAudio from '../media/latin.mp3';
+import tsgw from '../media/tsgw.png'
 
 function MusicPage() {
 	const sidebarItems = [
@@ -88,7 +89,7 @@ function MusicPage() {
 						</div>
 						<div className="md:h-1/2 w-full md:w-1/2 p-12">
 							<img
-								src="src/media/tsgw.png"
+								src={tsgw}
 							></img>
 						</div>
 
