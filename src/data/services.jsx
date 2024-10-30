@@ -8,21 +8,21 @@ export default [
 		title: 'Music',
 		icon: <FaMusic className="w-full h-full" />,
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi rerum quia harum eaque, quae laboriosam quisquam distinctio.',
+		'Click here to see my journey through Carnatic music and my initial foray into digital music production.',
 		link: '/music', 
 	},
 	{
 		title: 'Computer Science',
 		icon: <VscCode className="w-full h-full" />,
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi rerum quia harum eaque, quae laboriosam quisquam distinctio.',
+			'Click here to see the things I\'ve learned while developing and deploying apps, competing with my robotics team, and interning.',
 		link: '/computer-science', 
 	},
 	{
 		title: 'Teaching/Outreach',
 		icon: <FaHandHoldingHeart className="w-full h-full" />,
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi rerum quia harum eaque, quae laboriosam quisquam distinctio.',
+			'Click here to see the impact that I\'ve been able to make in the community by teaching code and digital music production',
 		link: '/reaching-out', 
 	},
 ];
