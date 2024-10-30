@@ -126,27 +126,20 @@ function ComputerSciencePage() {
 							></img>
 						</div>
 						<div className="md:w-1/2 p-4 ">
-							<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">Competition</h2>
-							<p className=" text-gray-600 dark:text-gray-300">I'm software lead on Iron Reign (First Tech Challenge Team 6832). We build all kinds of robots, from tiny concept systems to huge summer projects, and we have a lot of fun doing it. During my time on the team, we've advanced to State twice and the World Championship once. We've automated a 16-ton RV and an industrial-grade excavator, and we're notorious in North Texas for our experimental designs and strong team spirit.
+							<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">Our Team</h2>
+							<p className=" text-gray-600 dark:text-gray-300">I'm software lead on Iron Reign (First Tech Challenge Team 6832). We build all kinds of robots, from tiny concept systems to huge summer projects, and we have a lot of fun doing it. During my time on the team, we've advanced to State twice and the World Championship once. We've automated a 16-ton RV and an industrial-grade excavator, and we're notorious in North Texas for our experimental designs and strong team spirit. As software lead, I'm responsible for ensuring that the software is on track for our current project. I work with the rest of code team to divide up work, communicate expectations with the build and design teams, do a lot of coding myself. The core of my technical work is done in Java, dealing with state management, automation, driver-centered design, and sensor fusion.
+							For my work on the team and impact on the wider FIRST Robotics community, I was one of 4 students in all of North Texas named a Dean's List Finalist!
 							</p>
 						</div>
 					</div>
 
 					<div className="flex flex-row">
 						<div className="md:w-1/2 p-4 pb-12">
-							<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">My Role: Software</h2>
-							<p className=" indent-1 text-gray-600 dark:text-gray-300"> As software lead, I'm responsible for three things: </p>
-							<ul>
-								<li className="list-decimal text-gray-600 dark:text-gray-300">
-									Ensuring that the software is on track for our current project. This entails working with the rest of code team to divide up the work, communicating expectations with the build and design teams, and picking up a lot of the coding myself. The core of my technical work is done in Java, dealing with state management, automation, driver-centered design, and sensor fusion.
-								</li>
-								<li className="list-decimal text-gray-600 dark:text-gray-300">
+							<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">Team Outreach</h2>
+							<p className=" indent-1 text-gray-600 dark:text-gray-300"> 
 									Teaching the coders on the Junior Varsity teams, Iron Giant and Iron Core, how to code. Incoming skill levels range from 'never coded before' to 'just teach me the FTC specific stuff and I've got it.' Often, JV team members don't realize just how time-consuming testing can be, so I teach them to be far ahead of schedule.
-								</li>
-								<li className="list-decimal text-gray-600 dark:text-gray-300">
 									Leading the software discussions when we connect with people. For example, I lead code conversations with engineers from companies like Amazon and Boeing, drawing on their industry experience to inform our development. I'm also responsible for leading code instruction when we reach out to the community and offer workshops or classes.
-								</li>
-							</ul>
+									</p>
 						</div>
 						<div className="md:h-1/2 w-full md:w-1/2 p-12 pb-12">
 							<div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-6 shadow-md my-8">

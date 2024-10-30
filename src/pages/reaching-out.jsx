@@ -41,8 +41,7 @@ function ReachingOutPage() {
 							<div className="md:w-1/2 p-4">
 								<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">Let The Beat Build</h2>
 								<p className="text-gray-600 dark:text-gray-300">
-									Inspired by the frenzied rush that would happen in my community whenever someone announced that they were putting seedlings out on their porch, I developed an app to streamline community plant sharing and trade. It’s a really simple, lightweight solution to a very personal problem. We ended up finding an opportunity to give what we’d done a platform in the <a href="https://www.congressionalappchallenge.us/23-tx30/"> Congressional App Challenge</a>. We created this pitch video for our platform once we had a minimum viable product. We actually ended up winning in our Congressional District (South Dallas). We got opportunities to present in DC, network with our congresswoman and other congresspeople, and meet hundreds of other likeminded young developers.
-								</p>
+								The summer after my sophomore year, I interned at CodeNinjas Preston Hollow. I helped lead workshops and camps for students, primarily kids aged 4-11. My favorite experience working there was definitely running the Modding with Minecraft camp. The lesson plans stopped functioning after an update to MCreator (the block code software we used to create Minecraft Mods) changed how the app worked, and I got to draw on my lifelong obsession with technical Minecraft to create a lesson plan on the fly. The kids loved it, and actually ended up learning more coding concepts than the lesson plan had intended!</p>
 							</div>
 
 							<div className="md:w-1/2 p-4 mt-6 md:mt-0">
