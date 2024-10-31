@@ -15,7 +15,7 @@ export default [
 		title: 'Computer Science',
 		icon: <VscCode className="w-full h-full" />,
 		description:
-			'Click here to see the things I\'ve learned while developing and deploying apps, competing with my robotics team, and interning.',
+			'Click here to see what I\'ve learned while developing apps, competing with my robotics team, and interning.',
 		link: '/computer-science', 
 	},
 	{
