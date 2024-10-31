@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa'; // Importing specific ico
 function HeroSection() {
     const [text, setText] = useState('');
     const fullText = "Hi, I'm Jai!";
-    const typingSpeed = 100; // Speed of typing in milliseconds
+    const typingSpeed = 50; // Speed of typing in milliseconds
     const pauseAfterComma = 500; // Pause duration after the comma in milliseconds
 
     useEffect(() => {
