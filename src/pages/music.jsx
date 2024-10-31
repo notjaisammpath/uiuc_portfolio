@@ -124,12 +124,12 @@ function MusicPage() {
 					<div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md my-8"> {/* Added wrapper */}
 
 						<div className="flex flex-row">
-						<div className="md:h-1/2 w-full md:w-1/2 p-12 flex items-center justify-center">
-    <audio controls className="w-96 h-24 rounded-md shadow-lg pt-14">
-        <source src="/src/media/cochise-carti.mp3" type="audio/mp3" />
-        Your browser does not support the audio element.
-    </audio>
-</div>
+							<div className="md:h-1/2 w-full md:w-1/2 p-12 flex items-center justify-center">
+								<audio controls className="w-96 h-24 rounded-md shadow-lg pt-14">
+									<source src={cochiseCartiAudio} type="audio/mp3" />
+									Your browser does not support the audio element.
+								</audio>
+							</div>
 
 							<div className="md:w-1/2 p-4">
 								<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">Silhouette</h2>
@@ -150,7 +150,7 @@ function MusicPage() {
 
 						<div className="md:h-1/2 w-full md:w-1/2 p-12 flex items-center justify-center">
 							<audio controls className="w-96 h-24 rounded-md shadow-lg pt-14">
-								<source src="/src/media/latin.mp3" type="audio/mp3" />
+								<source src={latinAudio} type="audio/mp3" />
 								Your browser does not support the audio element.
 							</audio>
 						</div>
