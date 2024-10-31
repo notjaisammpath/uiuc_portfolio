@@ -120,9 +120,11 @@ function ComputerSciencePage() {
                 src={SchedulocityImage}
                 className="w-1/4 md:w-1/4 h-auto mb-4"
               />
-              
+
               <img src={Schedule} className="w-3/4 md:w-3/4 h-auto" />
-              <div className="text-gray-500 dark:text-gray-400 text-sm text-center mt-4">An example student exam schedule email</div>
+              <div className="text-gray-500 dark:text-gray-400 text-sm text-center mt-4">
+                An example student exam schedule email
+              </div>
             </div>
             <div className="md:w-1/2 p-4 pb-12">
               <h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">
@@ -196,9 +198,11 @@ function ComputerSciencePage() {
             </div>
             <div className=" rounded-lg p-6 shadow-md my-8 bg-gray-100 dark:bg-gray-800 md:w-1/2 p-4 pb-12 flex flex-col items-center">
               <img src={ClassReport} className="center h-auto mt-4 " />
-              <div className="text-gray-500 dark:text-gray-400 text-sm text-center mt-4">The results from one of my successful emotion classification models</div>
+              <div className="text-gray-500 dark:text-gray-400 text-sm text-center mt-4">
+                The results from one of my successful emotion classification
+                models
+              </div>
             </div>
-
           </div>
         </Element>
 
@@ -209,7 +213,9 @@ function ComputerSciencePage() {
           <div className="flex flex-col md:flex-row mt-8">
             <div className="md:w-1/2 p-4 pb-12">
               <img src={state} className="w-full h-auto" />
-              <div className="text-gray-500 dark:text-gray-400 text-sm text-center mt-4">My team, Iron Reign, right after winning Innovate 1 at State</div>
+              <div className="text-gray-500 dark:text-gray-400 text-sm text-center mt-4">
+                My team, Iron Reign, right after winning Innovate 1 at State
+              </div>
             </div>
             <div className="md:w-1/2 p-4">
               <h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">
@@ -306,8 +312,11 @@ function ComputerSciencePage() {
             <div className="md:w-1/2 p-4 pb-12">
               <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-6 shadow-md my-8">
                 <img src={dashboard} className="w-full h-auto" />
-                <div className="text-gray-500 dark:text-gray-400 text-sm text-center mt-4"> A screenshot of our contributions to the Field View (Bottom Left) on FTC Dashboard</div>
-
+                <div className="text-gray-500 dark:text-gray-400 text-sm text-center mt-4">
+                  {" "}
+                  A screenshot of our contributions to the Field View (Bottom
+                  Left) on FTC Dashboard
+                </div>
               </div>
             </div>
           </div>

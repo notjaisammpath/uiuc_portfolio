@@ -2,7 +2,7 @@ import React from 'react';
 import {FaHeart} from 'react-icons/fa';
 function Footer() {
 	return (
-		<div className="py-5 bg-slate-800 text-center text-gray-300 rounded-t-lg">
+		<div className="py-5 bg-blue-600 dark:bg-slate-800 text-center text-gray-300 rounded-t-lg">
 			<a href="#hero" className="block text-xl md:text-2xl font-semibold">
 				Jai Sammpath 
 			</a>

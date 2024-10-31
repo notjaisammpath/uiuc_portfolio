@@ -9,33 +9,33 @@ function Navbar() {
  		   <div className="mx-auto flex justify-between items-center">
  			   <ul className="flex space-x-4">
 				<li>
- 					   <Link to="/" className="hover:underline text-blue-400">Home</Link>
+ 					   <Link to="/" className="hover:underline text-blue-200 dark:text-blue-300">Home</Link>
  				   </li>
 					<li>
-					<p className='text-blue-600'> | </p>
+					<p className='text-blue-500 dark:text-blue-300'> | </p>
  				   </li>
  				   <li>
- 					   <Link to="/computer-science" className="hover:underline text-blue-400">Computer Science</Link>
+ 					   <Link to="/computer-science" className="hover:underline text-blue-200 dark:text-blue-300">Computer Science</Link>
  				   </li>
 					<li>
-					<p className='text-blue-600'> | </p>
+					<p className='text-blue-500 dark:text-blue-300'> | </p>
  				   </li>
  				   <li>
- 					   <Link to="/music" className="hover:underline text-blue-400">Music</Link>
+ 					   <Link to="/music" className="hover:underline text-blue-200 dark:text-blue-300">Music</Link>
  				   </li>
 				   <li>
- 					   <p className='text-blue-600'> | </p>
+ 					   <p className='text-blue-500 dark:text-blue-300'> | </p>
  				   </li>
 				
  				   <li>
- 					   <Link to="/reaching-out" className="hover:underline text-blue-400">Teaching/Outreach</Link>
+ 					   <Link to="/reaching-out" className="hover:underline text-blue-200 dark:text-blue-300">Teaching/Outreach</Link>
  				   </li>
 					<li>
- 					   <p className='text-blue-600'> | </p>
+ 					   <p className='text-blue-500 dark:text-blue-300'> | </p>
  				   </li>
 				
  				   <li>
- 					   <Link to="/resume" className="hover:underline text-blue-400">Resume</Link>
+ 					   <Link to="/resume" className="hover:underline text-blue-200 dark:text-blue-300">Resume</Link>
  				   </li>
  			   </ul>
  		   </div>

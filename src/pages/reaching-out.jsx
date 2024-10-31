@@ -55,6 +55,7 @@ function ReachingOutPage() {
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://www.letthebeatbuild.me/"
+                    className="underline"
                   >
                     Let The Beat Build, a Dallas nonprofit focused on teaching
                     emotional awareness through music
@@ -64,11 +65,19 @@ function ReachingOutPage() {
                   Younger students (aged 4-8) learned core concepts of rhythm
                   while playing boomwhackers and tambourines, learning to calm
                   themselves by breathing intentionally in time with the rhythm.
-                  I taught the older students (aged 8-11) to use Soundtrap, a
-                  lightweight, beginner-friendly Digital Audio Workstation,
-                  opening their horizons up to digital music production. We made
-                  class beats and hosted beat battles, while focusing on the
-                  healthy outlet that music creation can be to unwanted
+                  I taught the older students (aged 8-11) to use {" "}
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.soundtrap.com/musicmakers"
+                    className="underline"
+                  >
+                    Soundtrap, a lightweight, beginner-friendly Digital Audio
+                    Workstation
+                  </a>
+                  , opening their horizons up to digital music production. We
+                  made class beats and hosted beat battles, while focusing on
+                  the healthy outlet that music creation can be to unwanted
                   feelings. Watching my students grow as people by learning to
                   produce, it was clear to me that my goal to make music
                   education more accessible was bigger than teaching kids how to
@@ -112,10 +121,18 @@ function ReachingOutPage() {
                 CodeNinjas
               </h2>
               <p className=" text-gray-600 dark:text-gray-300">
-                The summer after my sophomore year, I interned at CodeNinjas
-                Preston Hollow. I helped lead workshops and camps for students,
-                primarily kids aged 4-11. My favorite experience working there
-                was definitely running the{" "}
+                The summer after my sophomore year, I interned at{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.codeninjas.com/tx-preston-hollow"
+                  className="underline"
+                >
+                  CodeNinjas Preston Hollow
+                </a>
+                . I helped lead workshops and camps for students, primarily kids
+                aged 4-11. My favorite experience working there was definitely
+                running the{" "}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
