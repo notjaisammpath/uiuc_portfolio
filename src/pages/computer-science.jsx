@@ -64,16 +64,13 @@ function ComputerSciencePage() {
                   OurGarden
                 </h2>
                 <p className="text-gray-600 dark:text-gray-300">
-                  My family is huge on gardening – half my plate is usually
-                  fresh from our backyard. Naturally, when my parents found
-                  families in the neighborhood with an interest in gardening, we
-                  reached out and began trading with them to diversify the
-                  organic food we were eating and growing. However, the
-                  labyrinthine list of group chats and the constant flurry of
-                  activity on WhatsApp made a community trade network
-                  impossible. I found a solution in app development: if the
-                  platform was the issue, I’d create my own. Since then, I’ve
-                  been building OurGarden, a community gardening app that was{" "}
+                  My neighborhood has a huge culture of gardening and sharing
+                  their produce. Inspired by the issues our community had on
+                  WhatsApp, my friend Aarav created OurGarden, a multiplatform
+                  app, with my friend Aarav. It makes this network of plant
+                  sharing easy, breaking communication up into Communities, and
+                  enables you to manage your own digital garden. For our work,
+                  we were recognized by our Congresswoman and{" "}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -162,21 +159,37 @@ function ComputerSciencePage() {
                 Speechpundit
               </h2>
               <p className="text-gray-600 dark:text-gray-300">
-                During the summer after my junior year, I interned at
-                SpeechPundit, a public speaking coaching company. I worked with
-                them to extract metrics from recordings of voices to identify
-                common public speaking issues. For example, I identified the
-                emotion in the tone of the user's speech, compared it with a
-                sentiment analysis on their speech's content, and sent that
-                information to the user to help them improve their speech.
-                Additionally, as the company pivoted towards AI-driven speech
-                analysis, I got certified in Machine Learning by AWS (a
-                professional-level certification) to make better-informed
-                decisions when tuning and deploying models. Finally, channelling
-                my frustration while learning Python at the beginning of the
-                summer, I containerized the development process of the audio
-                processing stack with Docker, making new employees' setup as
-                easy as following a quick start guide.
+                During the summer after my junior year, I interned at{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.speechpundit.com/"
+                  className="underline"
+                >
+                  SpeechPundit, a public speaking coaching company
+                </a>
+                . I worked with them to extract metrics from recordings of
+                voices to identify common public speaking issues. For example, I
+                identified the emotion in the tone of the user's speech,
+                compared it with a sentiment analysis on their speech's content,
+                and sent that information to the user to help them improve their
+                speech. Additionally, as the company pivoted towards AI-driven
+                speech analysis,
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.credly.com/badges/4d153127-cd97-4ff0-851c-9440d74b967d/linked_in_profile"
+                  className="underline"
+                >
+                  I got certified in Machine Learning by AWS (a
+                  professional-level certification)
+                </a>{" "}
+                to make better-informed decisions when tuning and deploying
+                models. Finally, channelling my frustration while learning
+                Python at the beginning of the summer, I containerized the
+                development process of the audio processing stack with Docker,
+                making new employees' setup as easy as following a quick start
+                guide.
               </p>
             </div>
             <div className="md:w-1/2 p-4 pb-12 flex flex-col items-center">
@@ -199,22 +212,54 @@ function ComputerSciencePage() {
                 Our Team
               </h2>
               <p className="text-gray-600 dark:text-gray-300">
-                I'm software lead on Iron Reign (First Tech Challenge Team
-                6832). We build all kinds of robots, from tiny concept systems
-                to huge summer projects, and we have a lot of fun doing it.
-                During my time on the team, we've advanced to State twice and
-                the World Championship once. We've automated a 16-ton RV and an
-                industrial-grade excavator, and we're notorious in North Texas
-                for our experimental designs and strong team spirit. As software
-                lead, I'm responsible for ensuring that the software is on track
-                for our current project. I work with the rest of code team to
-                divide up work, communicate expectations with the build and
-                design teams, do a lot of coding myself. The core of my
-                technical work is done in Java, dealing with state management,
-                automation, driver-centered design, and sensor fusion. For my
-                work on the team and impact on the wider FIRST Robotics
-                community, I was one of 4 students in all of North Texas named a
-                Dean's List Finalist!
+                I'm software lead on{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.credly.com/badges/4d153127-cd97-4ff0-851c-9440d74b967d/linked_in_profile"
+                  className="underline"
+                >
+                  Iron Reign (First Tech Challenge Team 6832).
+                </a>{" "}
+                We build all kinds of robots, from tiny concept systems to huge
+                summer projects , and we have a lot of fun doing it. During my
+                time on the team, we've advanced to State twice and{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://ironreignrobotics.org/2023-04-25-worlds/"
+                  className="underline"
+                >
+                  the World Championship
+                </a>{" "}
+                once. We've automated a{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://ironreignrobotics.org/2023-08-11-r2v3-safety/"
+                  className="underline"
+                >
+                  16-ton RV
+                </a>{" "}
+                and an{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://ironreignrobotics.org/2022-07-09-mechavator-safety/"
+                  className="underline"
+                >
+                  {" "}
+                  industrial-grade excavator,
+                </a>{" "}
+                and we're notorious in North Texas for our experimental designs
+                and strong team spirit. As software lead, I work with the rest
+                of code team to divide up work, communicate expectations with
+                the build and design teams, do a lot of coding myself. The core
+                of my technical work is done in Java, dealing with state
+                management, automation, driver-centered design, and sensor
+                fusion. For my work on the team and impact on the wider FIRST
+                Robotics community, I was one of 4 students in all of North
+                Texas named a Dean's List Finalist!
               </p>
             </div>
           </div>
