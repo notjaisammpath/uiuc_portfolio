@@ -67,10 +67,10 @@ function ComputerSciencePage() {
                   My neighborhood has a huge culture of gardening and sharing
                   their produce. Inspired by the issues our community had on
                   WhatsApp, my friend Aarav created OurGarden, a multiplatform
-                  app, with my friend Aarav. It makes this network of plant
-                  sharing easy, breaking communication up into Communities, and
-                  enables you to manage your own digital garden. For our work,
-                  we were recognized by our Congresswoman and{" "}
+                  app. It makes this network of plant sharing easy, breaking
+                  communication up into Communities, and enables you to manage
+                  your own digital garden. For our work, we were recognized by
+                  our Congresswoman and{" "}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
