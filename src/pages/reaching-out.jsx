@@ -65,7 +65,7 @@ function ReachingOutPage() {
                   Younger students (aged 4-8) learned core concepts of rhythm
                   while playing boomwhackers and tambourines, learning to calm
                   themselves by breathing intentionally in time with the rhythm.
-                  I taught the older students (aged 8-11) to use {" "}
+                  I taught the older students (aged 8-11) to use{" "}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -96,6 +96,13 @@ function ReachingOutPage() {
                   alt="Let The Beat Build 2"
                   className="rounded-lg shadow-lg"
                 />
+                <div className="text-gray-500 dark:text-gray-400 text-sm text-center mt-4">
+                  <p>
+                    The oldest group of students I worked with, photo taken
+                    right after one of our famous beat battles (Top).
+                  </p>
+                  <p>Soundtrap, the DAW that we worked with (Bottom).</p>
+                </div>
               </div>
             </div>
           </div>

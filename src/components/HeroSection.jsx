@@ -38,7 +38,7 @@ function HeroSection() {
                     <span className="blinking-cursor">|</span>
                 </h1>
                 <p className="text-md md:text-lg max-w-lg mb-3 text-gray-600 dark:text-gray-300 transition-opacity duration-300 hover:opacity-80">
-                    I'm a driven high school senior interested in exploring the 
+                    I'm a high school senior interested in exploring the 
                     intersection between computer science and music.
                 </p>
                 <div className="flex space-x-12 justify-center mt-4">

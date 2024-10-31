@@ -8,7 +8,7 @@ function About() {
 			<div className="w-full md:w-6/12">
 				<SectionTitle>About Me</SectionTitle>
 				<p className="text-md text-gray-600 dark:text-gray-300">
-				I’m a student at the School for The Talented and Gifted in Dallas, Texas. I’m all about computers, robots, music, philosophy, and spending time outdoors. If you manage to catch me without my headphones in, consider yourself lucky.
+				I’m a student at the School for The Talented and Gifted in Dallas, Texas. I’m all about computers, robots, music, philosophy, and spending time outdoors. This website covers a couple of my projects in CS and Music, take a look around!
 				</p>
 			</div>
 
