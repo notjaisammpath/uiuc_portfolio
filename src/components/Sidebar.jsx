@@ -5,7 +5,7 @@ import { Link as RouterLink } from 'react-router-dom';
 
 function Sidebar({ items, homeLink, name }) {
     return (
-        <nav className="bg-blue-100 dark:bg-blue-800 p-6 rounded-xl shadow-lg  sticky top-4 h-fit">
+        <nav className="bg-blue-100 dark:bg-blue-800 p-6 rounded-xl shadow-lg sticky top-4 h-fit transition-transform transform hover:scale-105">
             <ul className="space-y-4">
                 {/* Home link */}
                 <li className="flex items-center space-x-2">
@@ -15,7 +15,7 @@ function Sidebar({ items, homeLink, name }) {
                     </RouterLink>
                 </li>
                 <p className='text-blue-600'>------------------</p>
-				
+                
                 {items.map((item, index) => (
                     <li key={index} className="flex items-center space-x-2">
                         {item.icon}

@@ -119,20 +119,20 @@ function MusicPage() {
 				<Element name="music-production" className="mt-8">
 
 					<p className="mt-2 text-gray-600 dark:text-gray-300">
-						Recently, I've been diving a bit deeper into hip hop music production. I've been teaching myself how to use FL Studio to create beats like my favorite producers. I'm still building experience, improving my composition, sound selection, and mixing, but here are a couple of (in my opinion) my most fruitful explorations so far:					</p>
+						Recently, I've been diving a bit deeper into hip hop music production. I've been teaching myself how to use FL Studio to create beats like my favorite producers. I'm still building experience: improving my composition, sound selection, and mixing, but here are a couple of (in my opinion) my most fruitful explorations so far:					</p>
 
 					<div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md my-8"> {/* Added wrapper */}
 
 						<div className="flex flex-row">
-							<div className="md:h-1/2 w-full md:w-1/2 p-12 flex items-center justify-center">
-								<audio controls className="w-400 h-100 rounded-md shadow-lg pt-14">
-								<source src="/src/media/cochise-carti.mp3" type="audio/mp3" />
-									Your browser does not support the audio element.
-								</audio>
-							</div>
+						<div className="md:h-1/2 w-full md:w-1/2 p-12 flex items-center justify-center">
+    <audio controls className="w-96 h-24 rounded-md shadow-lg pt-14">
+        <source src="/src/media/cochise-carti.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+    </audio>
+</div>
 
 							<div className="md:w-1/2 p-4">
-								<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">Ascent</h2>
+								<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">Silhouette</h2>
 								<p className=" text-gray-600 dark:text-gray-300">This piece was inspired by the rage wave in hip hop, especially Playboi Carti's Whole Lotta Red and Trippie Redd's Trip At Knight. Working on this piece, I learned how to create synths and leads in Serum, and tried my hand at arranging and mixing for the first time. My favorite element is definitely the pad; I love how simultaneously gritty and smooth it is.
 								</p>
 							</div>
@@ -143,14 +143,14 @@ function MusicPage() {
 
 					<div className="flex flex-row">
 						<div className="md:w-1/2 p-4">
-							<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">(NAME)</h2>
+							<h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">Side Street</h2>
 							<p className=" text-gray-600 dark:text-gray-300">Inspiration for this piece struck me when I was waiting at a red light and heard this bassline flowing from the open windows of a nearby truck. I've always been interested in Latin music, and figured I'd try to incorporate it into one of my explorations, and this is what came of it. To this day, I'm still looking for a better trumpet line.
 							</p>
 						</div>
 
 						<div className="md:h-1/2 w-full md:w-1/2 p-12 flex items-center justify-center">
-							<audio controls className="w-400 h-100 rounded-md shadow-lg pt-14">
-							<source src="/src/media/latin.mp3" type="audio/mp3" />
+							<audio controls className="w-96 h-24 rounded-md shadow-lg pt-14">
+								<source src="/src/media/latin.mp3" type="audio/mp3" />
 								Your browser does not support the audio element.
 							</audio>
 						</div>
