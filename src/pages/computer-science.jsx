@@ -7,6 +7,8 @@ import SchedulocityImage from '../media/schedulocity.png';
 import SpeechpunditImage from '../media/sp.png';
 import ClassReport from '../media/class.png';
 import Schedule from '../media/schedule.png';
+import state from '../media/state.png';
+import dashboard from '../media/dashboard.png';
 
 function ComputerSciencePage() {
     const sidebarItems = [
@@ -124,7 +126,7 @@ function ComputerSciencePage() {
                     <div className="flex flex-col md:flex-row mt-8">
                         <div className="md:w-1/2 p-4 pb-12">
                             <img
-                                src="src/media/state.png"
+                                src={state}
                                 className="w-full h-auto"
                             />
                         </div>
@@ -148,7 +150,7 @@ function ComputerSciencePage() {
                         <div className="md:w-1/2 p-4 pb-12">
                             <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-6 shadow-md my-8">
                                 <img
-                                    src="src/media/dashboard.png"
+                                    src={dashboard}
                                     className="w-full h-auto"
                                 />
                             </div>
