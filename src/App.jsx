@@ -11,6 +11,7 @@ import MusicPage from './pages/music';
 import ComputerSciencePage from './pages/computer-science';
 import ResumePage from './pages/resume';
 
+
 function App() {
 	const [theme, setTheme] = useState(null);
 
