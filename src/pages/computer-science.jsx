@@ -66,8 +66,8 @@ function ComputerSciencePage() {
                 <p className="text-gray-600 dark:text-gray-300">
                   My neighborhood has a huge culture of gardening and sharing
                   their produce. Inspired by the issues our community had on
-                  WhatsApp, we created OurGarden, a multiplatform
-                  app, in Flutter. It makes this network of plant sharing easy, breaking
+                  WhatsApp, we created OurGarden, a multiplatform app, in
+                  Flutter. It makes this network of plant sharing easy, breaking
                   communication up into Communities, and enables you to manage
                   your own digital garden. For our work, we were recognized by
                   our Congresswoman and{" "}
@@ -120,7 +120,9 @@ function ComputerSciencePage() {
                 src={SchedulocityImage}
                 className="w-1/4 md:w-1/4 h-auto mb-4"
               />
+              
               <img src={Schedule} className="w-3/4 md:w-3/4 h-auto" />
+              <div className="text-gray-500 dark:text-gray-400 text-sm text-center mt-4">An example student exam schedule email</div>
             </div>
             <div className="md:w-1/2 p-4 pb-12">
               <h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">
@@ -192,10 +194,11 @@ function ComputerSciencePage() {
                 guide.
               </p>
             </div>
-            <div className="md:w-1/2 p-4 pb-12 flex flex-col items-center">
-              <img src={SpeechpunditImage} className="w-1/2 h-auto mb-4" />
-              <img src={ClassReport} className="w-1/2 h-auto" />
+            <div className=" rounded-lg p-6 shadow-md my-8 bg-gray-100 dark:bg-gray-800 md:w-1/2 p-4 pb-12 flex flex-col items-center">
+              <img src={ClassReport} className="center h-auto mt-4 " />
+              <div className="text-gray-500 dark:text-gray-400 text-sm text-center mt-4">The results from one of my successful emotion classification models</div>
             </div>
+
           </div>
         </Element>
 
@@ -206,6 +209,7 @@ function ComputerSciencePage() {
           <div className="flex flex-col md:flex-row mt-8">
             <div className="md:w-1/2 p-4 pb-12">
               <img src={state} className="w-full h-auto" />
+              <div className="text-gray-500 dark:text-gray-400 text-sm text-center mt-4">My team, Iron Reign, right after winning Innovate 1 at State</div>
             </div>
             <div className="md:w-1/2 p-4">
               <h2 className="text-2xl font-semibold text-blue-500 dark:text-blue-400 p-2">
@@ -273,19 +277,37 @@ function ComputerSciencePage() {
                 Teaching the coders on the Junior Varsity teams, Iron Giant and
                 Iron Core, how to code. Incoming skill levels range from 'never
                 coded before' to 'just teach me the FTC specific stuff and I've
-                got it.' Often, JV team members don't realize just how
-                time-consuming testing can be, so I teach them to be far ahead
-                of schedule. Leading the software discussions when we connect
-                with people. For example, I lead code conversations with
-                engineers from companies like Amazon and Boeing, drawing on
-                their industry experience to inform our development. I'm also
-                responsible for leading code instruction when we reach out to
-                the community and offer workshops or classes.
+                got it,' so I often need to be very intentional with how I
+                teach. We also do tons of work for the FTC open-source
+                community; our most recent contribution was{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://ironreignrobotics.org/2023-09-07-ftcdashboard-updates/"
+                  className="underline"
+                >
+                  improving the functionality of FTC Dashboard
+                </a>
+                , a telemetry utility used by hundreds of FTC teams. Leading the
+                software discussions when we connect with people. For example, I
+                lead code conversations with engineers from companies like{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://ironreignrobotics.org/2023-11-06-awsconnectnov/"
+                  className="underline"
+                >
+                  Amazon
+                </a>{" "}
+                and Boeing, drawing on their industry experience to inform our
+                development.
               </p>
             </div>
             <div className="md:w-1/2 p-4 pb-12">
               <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-6 shadow-md my-8">
                 <img src={dashboard} className="w-full h-auto" />
+                <div className="text-gray-500 dark:text-gray-400 text-sm text-center mt-4"> A screenshot of our contributions to the Field View (Bottom Left) on FTC Dashboard</div>
+
               </div>
             </div>
           </div>
